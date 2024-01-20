@@ -1,9 +1,16 @@
 {
-    "name": "vcpkg-example",
-    "version": "1.83",
-    "dependencies": [
-        "imgui",
-        "imguizmo",
-        "stb"
-    ]
+   "name": "vcpkg-example",
+   "version": "1.83",
+   "dependencies": [
+      "imgui",
+      "imguizmo",
+      "stb"
+   ],
+   "builtin-baseline": "eb33d2f7583405fca184bcdf7fdd5828ec88ac05",
+   "overrides": [
+      {
+         "name": "imgui",
+         "version": "1.83"
+      }
+   ]
 }
